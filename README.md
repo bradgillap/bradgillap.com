@@ -3,13 +3,13 @@ Whatever the latest version of my website looks like. I designed it to be a land
 
 I always try to work from a mobile first perspective and keep the size of things down to improve the experience on devices. 
 
-##OctoberCMS
+## OctoberCMS
 Site is built with [Octobercms](https://octobercms.com).
 
-##Theme Files
+## Theme Files
 Files are intended to be used as a theme and modified. I have attempted to seperate as much content as possible out of the main front end theme into seperate content files. 
 
-##Plugins
+## Plugins
 Plugins provided by [Octobercms Developers](https://octobercms.com/plugins).
 
 - [Rainlab User](https://github.com/rainlab/user-plugin)
@@ -24,7 +24,7 @@ Plugins provided by [Octobercms Developers](https://octobercms.com/plugins).
 - [Image Resizer](https://github.com/toughdeveloper/oc-imageresizer-plugin)
 - [Syntaxed](https://github.com/karingisi/syntaxed)
 
-##Libraries
+## Libraries
 
 - [PrismJS](https://github.com/PrismJS/prism)
 - [Materializecss](https://github.com/Dogfalo/materialize)

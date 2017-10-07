@@ -8,7 +8,7 @@ $( document ).ready(function() {
         interval: 6000,
     });
     $('.scrollspy').scrollSpy();
-
+    $('input#input_text, textarea#textareaContact').characterCounter();
  // Configuration Options
   $('#textareaContact').val('');
   $('#textarea1Contact').trigger('autoresize');

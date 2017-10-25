@@ -23,6 +23,7 @@ Plugins provided by [Octobercms Developers](https://octobercms.com/plugins).
 - [Clear Cache](https://github.com/romanov-acc/octobercms_clearcachewidget)
 - [Image Resizer](https://github.com/toughdeveloper/oc-imageresizer-plugin)
 - [Syntaxed](https://github.com/karingisi/syntaxed)
+- [Social Login](https://octobercms.com/plugin/flynsarmy-sociallogin)
 
 ## Libraries
 

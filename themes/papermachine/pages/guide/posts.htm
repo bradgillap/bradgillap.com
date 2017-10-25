@@ -18,6 +18,8 @@ theme = "dark"
 [account]
 paramCode = "code"
 forceSecure = 0
+
+[sociallogin]
 ==
 <?php
 public function onCheckEmail()
@@ -69,6 +71,9 @@ function onEnd()
                                 <input name="password" type="password" class="validate">
                                 <label>Password</label>
                             </div>
+                            Sign in with 
+<a href="https://www.bradgillap.com/flynsarmy/sociallogin/Facebook">Facebook</a>
+instead.
                             <p> <a href="{{ 'resetpassword' | page }}">Password Recovery</a></p>
                             <button class="btn waves-effect waves-light right light-blue" type="submit">SIGN ON
                                 <i class="material-icons right">person</i>

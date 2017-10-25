@@ -7,6 +7,8 @@ is_hidden = 0
 redirect = "home"
 paramCode = "code"
 forceSecure = 0
+
+[sociallogin]
 ==
 <?php
 public function onCheckEmail()
@@ -71,6 +73,12 @@ public function onCheckEmail()
                     <input name="password" type="password" class="validate">
                     <label>Password</label>
                 </div>
+Sign in with 
+<a href="flynsarmy/sociallogin/Facebook">Facebook</a>
+instead.
+
+
+
                 <p> <a href="{{ 'resetpassword' | page }}">Password Recovery</a></p>
                 
                 <button class="btn waves-effect waves-light right" type="submit">SIGN ON

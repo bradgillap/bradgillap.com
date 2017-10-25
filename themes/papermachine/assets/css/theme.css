@@ -58,4 +58,11 @@ a:hover .nav-hover {
         
         font-weight: bold;
         
-    }
+    }
+    
+/* October Markdown fixes */
+
+ul.ab {
+    list-style: square !important; 
+}
+

@@ -32,3 +32,5 @@ Plugins provided by [Octobercms Developers](https://octobercms.com/plugins).
 - [JQuery](https://github.com/jquery/jquery)
 - [Typeit](https://github.com/alexmacarthur/typeit) (Personal Use License)
 
+## Code
+[![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)

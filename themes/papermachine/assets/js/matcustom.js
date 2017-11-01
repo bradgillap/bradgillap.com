@@ -53,6 +53,9 @@ $('.type-it').typeIt({
 .tiType(' <span class="light-blue-text lighten-2">CSS</span>.')
 .tiPause(600)
 .tiDelete(4)
-.tiSettings({speed: 70})
+.tiSettings({speed: 70});
+
+
+
 });
 

@@ -1,6 +1,7 @@
 title = "Home"
 url = "/"
 layout = "default"
+description = "Bradley Gillap's Home Page"
 is_hidden = 0
 
 [blogPosts guidePost]
@@ -24,7 +25,7 @@ postPage = "guide/posts"
 </div>
     <div class="section white">
         <div class="row container">
-                {% content 'home/section1Title.htm' %}
+                <div class="card-panel orange lighten-1">{% content 'home/section1Title.htm' %}</div>
             <div class="divider"></div>
                 {% content 'home/section1Quote.htm' %}
         </div>
@@ -34,7 +35,7 @@ postPage = "guide/posts"
               <img class="activator" src="{{ 'assets/images/cards/GitHub_Logo.png'|theme }}" alt="Image of the github logo.">
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">{% content 'home/card1Title.htm' %}<i class="material-icons right">more_vert</i></span>
+              <span class="card-title activator grey-text text-darken-4 ">{% content 'home/card1Title.htm' %}<i class="material-icons right">more_vert</i></span>
                 {% content 'home/card1Link.htm' %}
             </div>
             <div class="card-reveal">
@@ -56,7 +57,7 @@ postPage = "guide/posts"
             </div>
           </div>
           <div class="col s1"></div>
-                  <div class="card col s12 m6 l6 xl6 white hoverable">
+                  <div class="card col s12 m6 l6 xl6 white hoverable ">
                     <div class="card-content white-text">
                         {% content 'home/card2Title' %}
                         {% content 'home/card2Subtitle.htm' %}
@@ -65,6 +66,7 @@ postPage = "guide/posts"
                             <div class="row">
                                 <div class="flow-text col s6"><a href="{{ post.url }}">{{post.title}}</a></div> <div class="grey-text text-darken-4 right flow-text col s6"> {{ post.published_at|date("m/d/Y") }}</div>
                             </div>
+                            <div class="divider"></div>
                         {% endfor %}
                     </div>
                     <div class="card-action">

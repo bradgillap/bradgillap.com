@@ -1,6 +1,6 @@
 title = "Post"
 url = "/guide/post/:slug"
-layout = "default"
+layout = "posts"
 is_hidden = 0
 
 [blogPost guidePost]
@@ -11,9 +11,6 @@ categoryPage = "guide/category"
 embedCode = "{{ :slug }}"
 channelSlug = "guide-comments"
 memberPage = "account"
-
-[syntaxed]
-theme = "dark"
 
 [account]
 paramCode = "code"
@@ -35,7 +32,6 @@ function onEnd()
 }
 ?>
 ==
-{% component 'syntaxed' %}
 <div class="container">
 
 {% if post %}

@@ -22,7 +22,6 @@ Plugins provided by [Octobercms Developers](https://octobercms.com/plugins).
 - [Contact Us](https://octobercms.com/plugin/devinx-contactus)
 - [Clear Cache](https://github.com/romanov-acc/octobercms_clearcachewidget)
 - [Image Resizer](https://github.com/toughdeveloper/oc-imageresizer-plugin)
-- [Syntaxed](https://github.com/karingisi/syntaxed)
 - [Social Login](https://octobercms.com/plugin/flynsarmy-sociallogin)
 
 ## Libraries
@@ -31,4 +30,7 @@ Plugins provided by [Octobercms Developers](https://octobercms.com/plugins).
 - [Materializecss](https://github.com/Dogfalo/materialize)
 - [JQuery](https://github.com/jquery/jquery)
 - [Typeit](https://github.com/alexmacarthur/typeit) (Personal Use License)
+- [Clipboard.js](https://clipboardjs.com/) (Personal Use License)
 
+## Code
+[![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)](https://github.com/thedaviddias/Front-End-Checklist/)

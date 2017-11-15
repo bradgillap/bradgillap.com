@@ -1,4 +1,4 @@
-description = "Default layout"
+description = "Layout for post pages"
 
 [session]
 security = "all"
@@ -38,7 +38,8 @@ redirect = "home"
         <link rel="dns-prefetch" href="https://www.bradgillap.com">
         <link href="{{ [
             'assets/css/materialize.min.css',
-            'assets/css/theme.css'
+            'assets/css/theme.css',
+            'assets/css/prism.css'
             ]|theme }}" rel="stylesheet">
         {% styles %}
     </head>
@@ -62,12 +63,24 @@ redirect = "home"
         <!-- Scripts -->
         <script type="text/javascript" src="{{ [
             'assets/js/jquery-3.2.1.min.js', 
-            'assets/js/typeit.min.js', 
             'assets/js/materialize.min.js', 
+            'assets/js/clipboard.min.js',
+            'assets/js/prism.js',
             'assets/js/matcustom.js'] |theme }}"></script>
-        <!-- Framework is already loading, nto sure from where -->
+            
+        <script type="text/javascript">
+        Prism.plugins.NormalizeWhitespace.setDefaults({
+        	'remove-trailing': true,
+        	'remove-indent': true,
+        	'left-trim': true,
+        	'right-trim': true,
+        });
+        </script>
+            
+        <!-- Framework is already loading, not sure from where -->
         {% framework extras %}
 {% scripts %}
+
 
     </body>
 </html>
